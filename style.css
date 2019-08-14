@@ -43,9 +43,10 @@ nav li a{
     width: 45px;
 }
 .magnifyingGlass{
-    padding: 0.3rem;
+    padding: 0.2rem;
     position: absolute;
-    width: 20px;
+    width: 24px;
+    background-color: rgba(0, 0, 0, .05)
 }
 #searchButton{
     position: absolute;
@@ -62,10 +63,12 @@ nav li a{
     left: 8%;
 }
 .searchInput{
+    position: relative;
+    left: 30px;
     background-color: rgba(0, 0, 0, .05);
     border: none;
     height: 30px;
-    width: 71em;
+    width: 69em;
     margin: 0px;
 }
 .links a{
