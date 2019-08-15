@@ -135,6 +135,74 @@ nav li a{
     box-shadow: 8px 8px 0 rgba(251,59,73,.2);
 }
 
+/* sub section part of the webpage */
+
+.sub-section {
+    display: flex;
+    height: 450px;
+    flex-flow: column;
+    align-content: center;
+    margin: 20px;
+}
+
+.sub-section img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+
+}
+.sub-section h2{
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    height: 36px;
+    font-size: 22pt;
+    width: 60%;
+    text-align: center;
+    align-self: center;
+}
+.sub-section article{
+    position: relative;
+    bottom: 10px;
+    padding: 10px;
+    text-justify: auto;
+    font-size: 12pt;
+    width: 48%;
+    text-align: center;
+    align-self: center;
+}
+
+.last-section{
+    height: 500px;
+}
+ #tab-section {
+     display: flex;
+     width: 85%;
+     margin:auto;
+ }
+ #tab-section img{
+     width: 1.5em;
+ }
+ #tab-section div{
+     width: 21%;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .last-section a{
+    margin: auto;
+    text-decoration: none;
+    padding: 10px ;
+    text-align: center;
+    height: 20px;
+    font-weight: normal;
+    color: white;
+    background-color:black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2)
+ }
+ 
+
+ 
 
 
 
