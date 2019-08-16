@@ -38,6 +38,7 @@ nav li a{
 }
 nav li a:hover{
     color: grey;
+    transition: 0.3s;
 }
 .blackHeart{
     width: 20px;
