@@ -36,6 +36,9 @@ nav li a{
     color: black;
     text-decoration: none;
 }
+nav li a:hover{
+    color: grey;
+}
 .blackHeart{
     width: 20px;
 }  
@@ -53,7 +56,6 @@ nav li a{
     border: none;
     background-color: #fb3e44;
     color: white;
-    /* padding: 1px; */
     height: 30px;
     width: 60px;
     left: 71em;
@@ -175,6 +177,9 @@ nav li a{
 .last-section{
     height: 500px;
 }
+#tab-section h4{
+    color: #eb141f;
+}
  #tab-section {
      display: flex;
      width: 85%;
@@ -190,15 +195,16 @@ nav li a{
  }
 
  .last-section a{
-    margin: auto;
-    text-decoration: none;
-    padding: 10px ;
-    text-align: center;
-    height: 20px;
-    font-weight: normal;
+    padding: 10px 15px;
+    width: 150px;
     color: white;
-    background-color:black;
-    box-shadow: 8px 8px 0 rgba(128,83,35,.2)
+    background-color: black;
+    text-decoration: none;
+    position: relative;
+    left: 45%;
+    top: 15px;
+    box-shadow: 8px 8px 0px rgba(232,217,217,.9);
+    
  }
  
 
